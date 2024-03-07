@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--email-ajo-integratoin--aemsites.hlx.page/demo-email
-- Live: https://main--email-ajo-integratoin--aemsites.hlx.live/demo-email
+- Preview: https://main--email-ajo-integration--aemsites.hlx.page/demo-email
+- Live: https://main--email-ajo-integration--aemsites.hlx.live/demo-email
 
 ## Installation
 
