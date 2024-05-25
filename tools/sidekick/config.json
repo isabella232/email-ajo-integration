@@ -37,7 +37,7 @@
                 "dev",
                 "edit"
             ],
-            "url": "https://experience.adobe.com/?devMode=true#/@demosystem/custom-apps/#/",
+            "url": "https://experience.adobe.com/?devMode=true#/custom-apps/?localDevUrl=https://285361-706violetswift-stage.adobeio-static.net/index.html",
             "includePaths": [
                 "**.docx**"
             ]
