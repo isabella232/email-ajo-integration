@@ -4,6 +4,7 @@
 
 .mj-header-image {
     padding: 0;
+    width: 155px;
 }
 
 .mj-header-text {
@@ -20,4 +21,8 @@
     padding-left: 20px;
     padding-right: 20px;
     vertical-align: middle;
+}
+
+.mj-list > .mj-li {
+    font-size: 12px;
 }

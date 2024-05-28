@@ -156,6 +156,7 @@ async function parseStyle(css) {
         i -= 1;
         const declarations = rule.rules
           .map((declaration) => {
+            console.log(declaration.name);
             const [{ value: name }] = declaration.name;
             let value = declaration.value.toCSS();
             if (value.charAt(0) === '\'' && value.charAt(value.length - 1) === '\'') {
@@ -384,7 +385,7 @@ export async function mjml2html(main) {
   head = mjmlStyles + head;
 
   const mjml = mjmlTemplate(head, body, [...document.body.classList]);
-  console.log(mjml);
+  // console.log(mjml);
   const { html } = (await mjml2html$)(mjml, { minify: false });
 
   return html;
