@@ -9,6 +9,7 @@ export default async function decorate(block, { fetch }) {
     textClass: 'mj-footer-text',
     imageClass: 'mj-footer-image',
     buttonClass: 'mj-footer-button',
+    anchorClass: 'mj-footer-link'
   };
   const resp = await fetch('/footer.plain.html');
 
@@ -18,8 +19,7 @@ export default async function decorate(block, { fetch }) {
     decorateButtons(block);
     decorateSections(block);
     decorateBlocks(block);
-    console.log(block);
-    return await toMjml(block, contentClasses);
+    return await toMjml(block);
   }
   return [];
 }
