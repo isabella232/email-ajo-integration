@@ -156,7 +156,6 @@ async function parseStyle(css) {
         i -= 1;
         const declarations = rule.rules
           .map((declaration) => {
-            console.log(declaration.name);
             const [{ value: name }] = declaration.name;
             let value = declaration.value.toCSS();
             if (value.charAt(0) === '\'' && value.charAt(value.length - 1) === '\'') {

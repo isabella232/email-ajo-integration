@@ -18,7 +18,7 @@ export default async function decorate(block, { fetch }) {
     decorateButtons(block);
     decorateSections(block);
     decorateBlocks(block);
-
+    console.log(block);
     return await toMjml(block, contentClasses);
   }
   return [];
